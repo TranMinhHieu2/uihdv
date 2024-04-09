@@ -66,7 +66,7 @@ p.header__text {
     padding-right: 11px;
 }
 .country {
-    width: 895px;
+    width: 190px;
 }
 .name-title{
     width: 220px;
@@ -141,4 +141,34 @@ button {
     /* Chiều cao của gạch ngang */
     background-color: #18a3fa;
     /* Màu của gạch ngang */
+}
+.applyP{
+    width: 395px;
+}
+.country.wai {
+    width: 225px;
+}
+.country.od {
+    width: 350px;
+}
+input[type="file"] {
+    display: none;
+}
+
+/* Style the custom file upload button */
+.custom-file-upload {
+    display: inline-block;
+    color: #18a3fa;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: 1px solid rgb(173, 170, 170);
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+.od-text {
+    margin-bottom: 15px;
+}
+.comment {
+    width: 910px;
 }
