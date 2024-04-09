@@ -143,7 +143,7 @@ button {
     /* Màu của gạch ngang */
 }
 .applyP{
-    width: 395px;
+    width: 240px;
 }
 .country.wai {
     width: 225px;
@@ -170,5 +170,18 @@ input[type="file"] {
     margin-bottom: 15px;
 }
 .comment {
-    width: 910px;
+    width: 915px;
+}
+.content-right.ap_text {
+    margin-top: 20px;
+    color: #a6781f;
+}
+.content-right.ap_text_2 {
+    color: #a6781f;
+}
+.mtop{
+    margin-top: 7px;
+}
+.country.mtop.noe {
+    padding-right: 2px;
 }
