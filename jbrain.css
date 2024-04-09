@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", system-ui, -apple-system, Helvetica, sans-serif;
+  }
+a {
+    color: #18a3fa;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.header__img{
+    max-width: 75px;
+}
+p.header__text {
+    color: #b5b0b0;
+}
+
+.content-right input[type="radio"] {
+    transform: scale(1.8); /* Thay đổi kích thước lên 1.5 lần */
+    margin-right: 10px; /* Khoảng cách giữa nút radio và nhãn */
+    /* Bổ sung các thuộc tính khác theo nhu cầu */
+}
+
+.oject{
+    display: flex;
+    justify-content: center;     
+}
+.form-signup{
+    width: 990px;
+    padding: 0 27.5px ;
+}
+.big-word{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+.small-word{
+    font-size: 22px;
+    margin-top: 27.5px;
+    margin-bottom: 20px;
+}
+.content{
+    margin-top: 27.5px;
+    margin-bottom: 72px;
+    padding: 0 27.5px;
+    background-color: #f5f5f5;
+    padding-top: 55px;
+    font-size: 18px;
+}
+.model {
+    display: flex;
+    margin-bottom: 25px;
+}
+.title-left {
+    width: 190px;
+    padding-top: 11px;
+    padding-right: 11px;
+}
+.country {
+    width: 895px;
+}
+.name-title{
+    width: 220px;
+}
+.content-right {
+    padding: 7px 0px;
+}
+input.input-info {
+    padding: 8px 10px;
+    width: 560px;
+    font-size: large;
+}
+.note {
+    font-size: 14px;
+    color: #878080;
+    margin: 18px 0px;
+}
+.information {
+    display: flex;
+}
+input.inputname {
+    padding: 8px 10px;
+    width: 274px;
+    font-size: large;
+    
+}
+.firstName{
+    margin-right: 10px;
+}
+.content-right__titel {
+    margin-bottom: 15px;
+}
+.checkbox {
+    margin-bottom: 20px;
+}
+.magrinadd{
+    margin-bottom: 20px;
+}
+button {
+    padding: 16px 40px;
+    border-radius: 30px;
+    background-color: #18a3fa;
+    color: white;
+    font-size: 13px;
+    border: #18a3fa;
+    font-weight: 600;
+}
+.button {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.footer {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #837d7d;
+}
+.custom-underline {
+    position: relative;
+    text-decoration: none;
+    color: #18a3fa;
+    /* Loại bỏ gạch ngang mặc định */
+}
+
+.custom-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    /* Điều chỉnh khoảng cách gạch ngang */
+    width: 100%;
+    height: 3px;
+    /* Chiều cao của gạch ngang */
+    background-color: #18a3fa;
+    /* Màu của gạch ngang */
+}
